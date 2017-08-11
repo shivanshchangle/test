@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Brain Master</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Brain Master</string>
+    <string name="title_activity_select">Brain Master</string>
+    <string name="title_activity_maths_choice">Basic Maths</string>
+    <string name="title_activity_bmaths_choice">Basis Maths Beginner</string>
+    <string name="title_activity_gkchoice">Gernal Knowledge</string>
+    <string name="title_activity_bgkchoice">Questions</string>
+    <string name="title_activity_basicmaths">Brain Master</string>
+    <string name="title_activity_basicgk">Gernal knowledge</string>
+    <string name="title_activity_inst">Instructions</string>
+</resources>

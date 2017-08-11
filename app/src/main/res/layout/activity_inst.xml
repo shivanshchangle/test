@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#3f374f"
+    tools:context="com.example.sopan.brainmaster.inst">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Instructions"
+        android:id="@+id/textView13"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. There are 2 sections Basic Maths and Gernal Knowledge, you have to select any one of them "
+        android:id="@+id/button4"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.In each seaction there are 3 levels Beginner,Intermediate and Expert"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/button4"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. In each secton there is a different time limit, for Beginner it's 10sec, for Intermediate it's 20sec and for Expert it's 30sec "
+        android:id="@+id/textView15"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. For each right answer +1 marks, for every wrong answer -0.25 marks and for not attemped 0 marks will be given"
+        android:id="@+id/textView16"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:background="#3f3049"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button8"
+        android:onClick="start"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
